@@ -1,4 +1,4 @@
-# Fragalysis Package
+# Frag
 
 [![build latest](https://github.com/xchem/frag/actions/workflows/build-latest.yml/badge.svg)](https://github.com/xchem/frag/actions/workflows/build-latest.yml)
 [![release](https://github.com/xchem/frag/actions/workflows/release.yaml/badge.svg)](https://github.com/xchem/frag/actions/workflows/release.yaml)
