@@ -45,16 +45,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: '3.11'
     - name: Lint
       run: |
         pip install -r build-requirements.txt
         pre-commit run --all-files
-    - name: Build
+    - name: Test
+      run: python -m unittest
+    - name: Build image
       uses: docker/build-push-action@v5
       with:
         context: .
-        tags: xchem/fragalysis:latest
-    - name: Test
-      run: >
-        docker run xchem/fragalysis:latest /bin/sh -c "cd /usr/local/fragalysis && python -m unittest"
+        tags: xchem/frag:latest
+    - name: Test image
+      run: docker run xchem/frag:latest /bin/sh -c "cd /usr/local/frag && python -m unittest"
