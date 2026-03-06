@@ -30,6 +30,8 @@ jobs:
         python3 -m pip install uv==0.10.6 --user
     - name: Build
       run: uv build
+      env:
+        FRAG_VERSION: ${{ github.ref_name }}
     - name: Store the distribution
       uses: actions/upload-artifact@v5
       with:

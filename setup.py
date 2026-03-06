@@ -12,7 +12,7 @@ with open(path.join(here, "README.rst"), encoding="utf-8") as f:
 
 setup(
     name="xchem-frag",
-    version=environ.get("GITHUB_REF_NAME", "1.0.0"),
+    version=environ.get("FRAG_VERSION", "0.0.0"),
     description="Library for fragment based analysis",
     long_description=long_description,
     # The project's main homepage.
