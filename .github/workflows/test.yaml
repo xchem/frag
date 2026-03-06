@@ -12,7 +12,7 @@ on:
   push:
     branches:
     - '*'
-    tags:
+    tags-ignore:
     - '**'
   schedule:
   # Build every Sunday (0) at 4:45pm
