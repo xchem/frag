@@ -1,5 +1,5 @@
 import unittest
-from frag.alysis.cluster import DPMeans, KMeans
+from fragutils.alysis.cluster import DPMeans, KMeans
 
 
 class ParserTest(unittest.TestCase):

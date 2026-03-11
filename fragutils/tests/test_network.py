@@ -2,8 +2,8 @@ import unittest
 
 from rdkit import Chem
 
-from frag.network.models import NodeHolder, Node, Attr
-from frag.utils.network_utils import (
+from fragutils.network.models import NodeHolder, Node, Attr
+from fragutils.utils.network_utils import (
     rebuild_smi,
     make_child_mol,
     get_fragments,
@@ -11,7 +11,7 @@ from frag.utils.network_utils import (
     get_comb_index,
     ret_comb_index,
 )
-from frag.network.decorate import (
+from fragutils.network.decorate import (
     decorate_smi,
     deletion_linker_mol,
     deletion_linker_smi,

@@ -1,9 +1,9 @@
 ---
-name: fragalysis-package
+name: fragutils
 channels:
 - rdkit
 dependencies:
 - python=3.11
 - rdkit=2023.3.2
 - pip:
-  - fragalysis
+  - xchem-fragutils

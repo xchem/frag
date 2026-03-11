@@ -1,5 +1,5 @@
 # Tools for merging, growing and linking fragments into hybrid queries
-from frag.utils.rdkit_utils import RDKitPh4, RDKitAtom
+from fragutils.utils.rdkit_utils import RDKitPh4, RDKitAtom
 
 
 def combine_ph4(

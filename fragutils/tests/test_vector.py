@@ -1,4 +1,4 @@
-from frag.utils.vector_utils import get_exit_vector_for_xe_smi
+from fragutils.utils.vector_utils import get_exit_vector_for_xe_smi
 import unittest
 
 

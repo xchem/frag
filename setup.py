@@ -11,7 +11,7 @@ with open(path.join(here, "README.rst"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="xchem-frag",
+    name="xchem-fragutils",
     version=environ.get("FRAG_VERSION", "0.0.0"),
     description="Library for fragment based analysis",
     long_description=long_description,
@@ -58,7 +58,7 @@ setup(
     # If there are data files included in your packages that need to be
     # installed, specify them here.  If using Python 2.6 or less, then these
     # have to be included in MANIFEST.in as well.
-    package_data={"frag": ["utils/data/RDKitPh4.fdef"]},
+    package_data={"fragutils": ["utils/data/RDKitPh4.fdef"]},
     # Although 'package_data' is the preferred approach, in some case you may
     # need to place data files outside of your packages. See:
     # http://docs.python.org/3.4/distutils/setupscript.html#installing-additional-files # noqa

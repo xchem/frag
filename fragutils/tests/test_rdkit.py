@@ -1,4 +1,4 @@
-from frag.utils.rdkit_utils import (
+from fragutils.utils.rdkit_utils import (
     RDKitPh4,
     _get_c_of_mass,
     find_dist,

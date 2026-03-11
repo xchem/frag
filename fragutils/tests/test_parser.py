@@ -1,6 +1,6 @@
 import unittest
-from frag.utils import parser
-from frag.utils.parser import _get_c_of_mass_list
+from fragutils.utils import parser
+from fragutils.utils.parser import _get_c_of_mass_list
 from rdkit import Chem
 
 

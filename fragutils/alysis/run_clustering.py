@@ -1,5 +1,5 @@
-from frag.alysis.cluster import dp_means
-from frag.utils.parser import parse_ligand_ph4s
+from fragutils.alysis.cluster import dp_means
+from fragutils.utils.parser import parse_ligand_ph4s
 
 PH4_LAMBDA = 1.0
 C_OF_M_LAMBDA = 6.0

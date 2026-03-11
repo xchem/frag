@@ -12,5 +12,5 @@ RUN apt-get --allow-releaseinfo-change update \
     && git clone https://github.com/rdkit/mmpdb /usr/local/mmpdb \
     && pip install /usr/local/mmpdb
 
-ADD . /usr/local/frag
-RUN pip install /usr/local/frag
+ADD . /usr/local/fragutils
+RUN pip install /usr/local/fragutils
